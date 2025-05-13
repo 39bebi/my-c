@@ -7,8 +7,10 @@ int main() {
     for(int i=3;i<=n;i++){
         printf("Fibbonaci:%d %d\n",t1,t2);
         nextTerm=t1+t2;
-        printf("nextTerm %d\n",nextTerm);
-        t1=t2;
-        t2=nextTerm;
+        {
+            printf("nextTerm %d\n",nextTerm);
+            t1=t2;
+            t2=nextTerm;
+        }
     }
 }
