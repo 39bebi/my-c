@@ -10,6 +10,8 @@ int main(){
     strcpy(name,"lavanya");
     printf("%s\n",name);
     int compare=strcmp("baby","lavanya");
-    printf("%d",compare);
+    printf(" %d\n",compare);
+    strcat(name," cute");
+    printf("%s",name);
     return 0;
 }
