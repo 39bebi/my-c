@@ -5,9 +5,9 @@ int num,result=0,rem,digits=0,original;
 printf("Enter a number\n");
 scanf("%d",&num);
 original=num;
-while(num!=0){
-    int temp=num;
-    num/=10;
+int temp=num;
+while(temp!=0){
+    temp/=10;
     digits++;
 }
 while(num!=0){
