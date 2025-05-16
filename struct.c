@@ -7,9 +7,9 @@ int main(){
     };
     struct student s1;
     printf("Enter your name ");
-    scanf("%s",s1.name);
+    scanf("%s",&s1.name);
     printf("Enter age ");
-    scanf("%d",s1.age);
+    scanf("%d",&s1.age);
     printf("Enter weight ");
-    scanf("%f",s1.weight);
+    scanf("%f",&s1.weight);
 }
