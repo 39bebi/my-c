@@ -1,0 +1,44 @@
+File handling in c:
+File handling allow reading form and writing to files.
+
+Type of files:
+Text file: Store data in human- readable format.
+Binary file: Store data in binary format.
+File operations:
+Opening a file:
+FILE*file_pointer = fopen(“filename”,”mode”);
+
+Modes:”r”(read),”w”(write),”a”(append).
+Closing afile:
+Writing mode;
+fprintf(file_pointer,”Text”);
+fputs(“Text”,file_pointer);
+Reading mode:
+fscanf(file_pointer,”format_specifier”,&variable);
+fgets(buffer,size,file_pointer);
+EOF- end of file.
+Common preprocessor directives;
+These are instructions executed before the actual compilation of code.
+#include:used to define.
+            Constants/macro.
+#include:includes header files.
+
+Conditional compilation:
+MACRO: 
+Command line: It allows passing information to a program when its start execution.
+
+argc:argument count.
+argv:array of string.
+Syntax:
+int main(int argc,char*argv[])
+Error Handling:
+Types:
+Syntax error
+Run time error
+Logical error
+
+Debugging:
+Using printf
+Using debuggers
+while(ch=fgetc(ch!=EOF))
+
